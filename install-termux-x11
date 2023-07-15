@@ -1,0 +1,8 @@
+clear
+echo UPDATING REPO
+pkg install root-repo -y
+okg install x11-repo -y
+pkg install tur-repo -y
+pkg update -y
+pkg upgrade -y
+clear
