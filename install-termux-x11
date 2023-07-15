@@ -1,14 +1,14 @@
 #TERMUX-X11 DISPLAY FOR TERMUX LINUX
-#https://youtu.be/rkPyFJ2FinI
+#visit >> https://youtu.be/rkPyFJ2FinI
 clear
-echo UPDATING REPO
+echo UPDATING REPO...
 pkg install root-repo -y
 pkg install x11-repo -y
 pkg install tur-repo -y
 pkg update -y
 pkg upgrade -y
 clear
-echo INSTALLING TERMUX-X11
+echo INSTALLING TERMUX-X11...
 pkg install termux-x11-nightly -y
 pkg install fluxbox -y
 pkg install dbus-x11 -y
