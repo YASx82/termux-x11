@@ -1,0 +1,5 @@
+clear
+proot-distro login debian --user root --shared-tmp
+export DISPLAY=:1
+echo INSTALL & START XFCE4 (apt install xfce4 -y)...
+
