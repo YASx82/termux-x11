@@ -1,0 +1,4 @@
+#apt install xfce4 -y
+#DISPLAY 
+export DISPLAY=:1
+startxfce4
