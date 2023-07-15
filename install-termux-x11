@@ -1,3 +1,5 @@
+#TERMUX-X11 DISPLAY FOR TERMUX LINUX
+#https://youtu.be/rkPyFJ2FinI
 clear
 echo UPDATING REPO
 pkg install root-repo -y
@@ -19,7 +21,3 @@ cp -r /termux-x11/app-arm64-v8a-debug.apk /sdcard/termux-x11.apk
 echo PLEASE INSTALL TERMUX-X11 FROM SDCARD... 
 echo RESTART TERMUX... 
 exit
-
-
-
-
