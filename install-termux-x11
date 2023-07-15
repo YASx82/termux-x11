@@ -6,3 +6,17 @@ pkg install tur-repo -y
 pkg update -y
 pkg upgrade -y
 clear
+echo INSTALLING TERMUX-X11
+pkg install termux-x11-nightly -y
+pkg install fluxbox -y
+pkg install dbus-x11 -y
+pkg install wget -y
+clear
+echo "termux-x11 :1 -xstartup dbus-launch --exit-with-session fluxbox" >> ~/.profile
+echo TERMUX-X11 INSTALLED...
+echo RESTART TERMUX... 
+exit
+
+
+
+
