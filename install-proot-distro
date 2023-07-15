@@ -1,0 +1,8 @@
+#AFTER TERMUX-X11 INSTALLED
+clear
+pkg install proot -y
+pkg instal proot-distro -y
+clear
+echo INSTALLING DEBIAN LINUX...
+proot-distro install debian
+echo >bash start-debian
