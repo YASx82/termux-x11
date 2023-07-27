@@ -1,0 +1,14 @@
+#run in debian linux term
+echo INSTALL XFCE 4 WINDOW? Yes/N
+if [ "$tanya" != "n" ]; then
+  clear
+  apt install xfce4 -y
+  apt install xfce4-terminal -y
+  apt install dbus -y
+  apt install dbus-x11 -y
+  echo XFCE4 INSTALLED... 
+fi
+clear
+echo EXPORT X DISPLAY
+export DISPLAY=:1
+dbus-launch --exit-with-session xfce4-session
