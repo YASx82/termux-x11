@@ -3,5 +3,5 @@ clear
 echo OPEN TERMUX-X11.APK...
 am start -n com.termux.x11/com.termux.x11.MainActivity
 #START TERMUX-X11
-termux-x11 -xstartup dbus-launch --exit-with-session fluxbox
+termux-x11 -xstartup "dbus-launch --exit-with-session" fluxbox
 #CTRL+C TO STOP 
